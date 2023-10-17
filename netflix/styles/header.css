@@ -1,0 +1,10 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    height: 300px;
+     top: 0;
+    background-color: black;
+    color: white;
+    font-family:'Times New Roman', Times, serif
+}
