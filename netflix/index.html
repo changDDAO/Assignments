@@ -1,19 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+
     <link rel="stylesheet" href="styles/common.css">
-    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/content.css" />
 
 </head>
+
 <body>
-    <header>
-        <div class="main-header">
-            <img src="assets/netflix-images/avatar.jpeg">
+    <header class="header">
+        <div class="left-section">
+            <img class="netflix-logo" src="assets/netflix-images/logo/net_logo.png" />
+        </div>
+        <div class="middle-section"></div>
+        <div class="right-section">
+            <img class="profile" src="assets/netflix-images/logo/profile.png" />
         </div>
     </header>
-    
+    <div class="header-container">
+        <div class="background">
+            <img src="assets/netflix-images/paperhouse.jpeg" />
+            <div class="gradient"></div>
+        </div>
+        <div class="contents">
+            <h1>Money Heist</h1>
+            <p>
+                to carry out the biggest heist in history, a mysterious man
+                called The Professor recruits a band of eight robbers who
+                have a single characteristic
+            </p>
+            <div class="buttons">
+                <button class="play">
+                    <span>Play Now</span>
+                </button>
+                <button class="detail">
+                    <span>More Info</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section class="netflix-original-section">
+            <h1>NETFLIX ORIGINALS</h1>
+            <div class="container">
+                <div class="flex-item item-1">
+                    <img src="assets/netflix-images/avatar.jpeg" alt="" />
+                </div>
+                <div class="flex-item item-2">
+                    <img src="assets/netflix-images/elemental.jpeg" alt="" />
+                </div>
+                <div class="flex-item item-3">
+                    <img src="assets/netflix-images/expendables4.jpeg" alt="" />
+                </div>
+                <div class="flex-item item-4">
+                    <img src="assets/netflix-images/extraction2.jpeg" alt="" />
+                </div>
+                <div class="flex-item item-5">
+                    <img src="assets/netflix-images/fair_play.jpeg" alt="" />
+
+                </div>
+        </section>
+        <br />
+        <section class="trending-now-section">
+            <h1>TRENDING NOW</h1>
+            <div class="container">
+                <div class="flex-item item-1">
+                    <img src="assets/netflix-images/johnwick.jpeg" alt="" />
+                </div>
+                <div class="flex-item item-2">
+                    <img src="assets/netflix-images/mission_impossible.jpeg" alt="" />
+                </div>
+                <div class="flex-item item-3">
+                    <img src="assets/netflix-images/paperhouse.jpeg" alt="" />
+                </div>
+                <div class="flex-item item-4">
+                    <img src="assets/netflix-images/cover/assign_manifest.png" alt="" />
+                </div>
+                <div class="flex-item item-5">
+                    <img src="assets/netflix-images/harryporter1.jpeg" alt="" />
+                </div>
+            </div>
+        </section>
+        <br />
+    </main>
 </body>
+
 </html>

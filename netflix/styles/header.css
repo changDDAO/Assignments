@@ -1,10 +1,45 @@
-.header{
+.header {
+    height: 37px;
+    padding: 26px 56px;
+
     display: flex;
-    flex-direction: column;
-    justify-content: stretch;
-    height: 300px;
-     top: 0;
-    background-color: black;
-    color: white;
-    font-family:'Times New Roman', Times, serif
+    flex-direction: row;
+    justify-content: space-between;
+
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.profile {
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 10px;
+    background: white;
+}
+
+.netflix-logo {
+    height: 60px;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.middle-section {
+    flex: 1;
+    margin-left: 65px;
+    margin-right: 45px;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.right-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
